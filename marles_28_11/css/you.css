@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 98vh;
+    border: 1px solid;
+}
+
+.barra{
+    height: 6rem;
+    display: flex;
+    background-image: url(../img/fondo.jpeg);
+}
+
+.logo{
+    width: 15%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.barrita{
+    border-radius: 50px 0px 0px 50px;
+    width: 70%;
+    height: 3rem;
+    margin-left: 10px;
+}
+
+.lupa{
+    border: 1px solid;
+    height: 2.8em;
+    width: 50px;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lup{
+    border: 1px solid;
+    width: 55%;
+    height: 60%;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#set{
+    color: #4162ce;
+}
+
+.ulti{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.b1{
+    border: 1px solid;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b2{
+    border: 1px solid;
+    width: 60px;
+    height: 30px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.per{
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c1{
+    width: 100%;
+    height: 92%;
+    display: flex;
+}
+
+.c2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+aside{
+    border: 1px solid;
+    flex: 0.2;
+}
+
+.psa{
+    border: none;
+    display: flex;  
+    justify-content: center;
+    height: 25rem;
+}
+
+span{
+    border: 1px solid;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul>li{
+   display: flex;
+   margin-top: 50px;
+   align-items: center;
+}
+
+li{
+    margin: 5px;
+}
+
+.espacio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    font-size: 30px;
+}
+
+.quick{
+    width: 100%;
+}
+
+.facts{
+    border-top: 1px solid;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.log{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atras{
+    border-top: 1px solid;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.like{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dislike{
+    border-left: 1px solid;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c4{
+    height: 93%;
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+}
+
+.uno{
+    border: 1px solid;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.doss{
+    border: 1px solid;
+    width: 50%;
+}
+
+
+.lore{
+    font-size: 30px;
+}
+
+.people{
+    font-size: 30px;
+    color: white;
+
+}
+
+.tex{
+    border-bottom: 1px solid;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    color: white;
+}
+
+.ope{
+    width: 100%;
+    height: 30%;
+}
+
+.espa{
+    width: 100%;
+    height: 60px;
+}
+
+.open{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.asdf{
+    border: 1px solid;
+    width: 500px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uli{
+    width: 100%;
+    height: 5rem;
+}
+
+.asdf{
+    border: 1px solid;
+    
+}
+
+.tex2{
+    color: black;
+    font-size: 30px;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.tex3{
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.espaciooo{
+    height: 150rem;
+}
+
+
+.foot{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gt{
+    border: 1px solid;
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.Make{
+    border: 1px solid;
+}
+
+
+.c5{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #49565c;
+    margin-left: 5px;
+    border-radius: 12px;
+}
+
+.doss{
+    background-color: #49565c;
+}
+
+.mala{
+    width: 320px;
+    height: 220px;
+}
+
+.lore{
+    font: size 30px;
+}
+
+
+
+.texx{
+    color: white;
+}
